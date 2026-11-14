@@ -17,3 +17,4 @@ jobs:
       - run: pnpm -r typecheck
       - run: ./scripts/get-pocketbase.sh .pb
       - run: PB_BIN=$PWD/.pb/pocketbase pnpm -r test
+      - run: pnpm --filter @games/web build
