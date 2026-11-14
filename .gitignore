@@ -4,3 +4,7 @@ dist
 .env.*
 !.env.example
 pb_data
+.pb
+.next
+next-env.d.ts
+*.tsbuildinfo
