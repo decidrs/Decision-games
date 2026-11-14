@@ -25,6 +25,8 @@ MVP Lab pattern: Next.js + TypeScript app and a dedicated PocketBase (pinned 0.3
 repo, deployed by Coolify to *.lab.dewolf.co. Lab gotchas GC-1 to GC-22 in Notion "MVP Lab
 Infrastructure Baseline" are standing rules. No real player data until consent text, privacy notice and
 this repo's own scheduled, restore-tested backup are in place.
+Ruled 14 Nov 2026: the MVP Lab is for tests and demos only; anything strategic, including real player
+data, goes on the OVH box, in the games' own database instance with its own backup.
 
 ## Spec
 "The Daily Call: scoring spec v0.1 and week 1 plan" (Claude Doc), scoring version dc-1.
